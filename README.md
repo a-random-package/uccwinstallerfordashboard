@@ -12,10 +12,12 @@ For the uccw.xml you can add any image preview you'd like, just place it in the 
 
 Also add these strings to your values/strings.xml file
 
+'''xml
 <string name="uccw">Jive UCCW Skins</string>
 <string name="uccw2">Install the skins</string>
 <string name="uccw3">The latest UCCW is required</string>
 <string name="uccw4">Download it here</string>
+'''
 
 And don't forget to reference the uccw class in the manifest
 
