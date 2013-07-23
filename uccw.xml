@@ -35,8 +35,6 @@
         android:layout_centerHorizontal="true"
         android:layout_gravity="center|center_vertical"
         android:layout_marginTop="8dp"
-        android:alpha="0.5"
-        android:background="@drawable/btn_default_holo_dark2"
         android:fontFamily="sans-serif-light"
         android:gravity="center|center_horizontal"
         android:text="@string/uccw2"
