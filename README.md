@@ -12,25 +12,25 @@ For the uccw.xml you can add any image preview you'd like, just place it in the 
 
 Also add these strings to your values/strings.xml file
 
-'''xml
-<string name="uccw">Jive UCCW Skins</string>
-<string name="uccw2">Install the skins</string>
-<string name="uccw3">The latest UCCW is required</string>
-<string name="uccw4">Download it here</string>
-'''
+
+    <string name="uccw">Name of our skins</string>
+    <string name="uccw2">Install the skins</string>
+    <string name="uccw3">The latest UCCW is required</string>
+    <string name="uccw4">Download it here</string>
+
 
 And don't forget to reference the uccw class in the manifest
 
-<activity
-    android:name="com.arandompackage.jive.uccw"
+    <activity
+    android:name="your.package.name.uccw"
     android:launchMode="singleTask"
     android:noHistory="true"
     android:label="@string/app_name"
-    android:parentActivityName="com.arandompackage.jive.MainActivity" >
+    android:parentActivityName="your.package.name.MainActivity" >
     <meta-data
       android:name="android.support.PARENT_ACTIVITY"
       android:value=".MainActivity" />
-</activity>
+    </activity>
 
 
 
